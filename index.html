@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>    
     <title>Document</title>
 </head>
 <body>
-    <script src="main.js"></script>
-    
+    <h1>"Rock, paper, scissors" game is here, let's play!</h1>
+    <h2>Player</h2>
+    <div class="user">
+        <button class="user-choice" id="rock">Rock</button>
+        <button class="user-choice" id="paper">Paper</button>
+        <button class="user-choice" id="scissors">Scissors</button>
+    </div>
+    <h2>Computer</h2>
+    <div class="container">
+        <div>
+            <div class="pop-up">You can't modify this, its computer's choice!</div>
+        </div>
+        <div class="computer">
+            <button class="computer-choice">Rock</button>
+            <button class="computer-choice">Paper</button>
+            <button class="computer-choice">Scissors</button>
+        </div>
+    </div>
+    <div>
+        <h2>Score, first to 5 wins</h2>
+    </div>
+    <div class="score">
+        <h3 class="player-score">Player:</h3>
+        <h3 class="computer-score">Computer:</h3>
+    </div>
 </body>
 </html>
